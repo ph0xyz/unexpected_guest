@@ -5,7 +5,7 @@
 
 // WiFi credentials
 const char* ssid = "ceilc2";
-const char* password = "idrf2024";
+const char* password = "PASSWORD_HERE";
 
 // Static IP address configuration
 IPAddress local_IP(192, 168, 1, 2); // Change this for each slave (192.168.1.2, 192.168.1.3, etc.)
