@@ -26,7 +26,7 @@ This project involves controlling multiple stepper motors using NodeMCU modules 
 1. **Connect to WiFi**: Set the SSID and password for your WiFi network.
     ```cpp
     const char* ssid = "ceilc2";
-    const char* password = "idrf2024";
+    const char* password = "PASSWORD_HERE";
     ```
 
 2. **Initialize Web Server**: Create a web server with routes to handle root and setting updates.
@@ -46,7 +46,7 @@ This project involves controlling multiple stepper motors using NodeMCU modules 
 1. **Connect to WiFi with Static IP**: Set the SSID, password, and static IP configuration for each slave.
     ```cpp
     const char* ssid = "ceilc2";
-    const char* password = "idrf2024";
+    const char* password = "PASSWORD_HERE";
     IPAddress local_IP(192, 168, 1, 2); // Change this for each slave
     IPAddress gateway(192, 168, 1, 1);
     IPAddress subnet(255, 255, 255, 0);
