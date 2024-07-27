@@ -3,7 +3,7 @@
 #include <WiFiUdp.h>
 
 const char* ssid = "ceilc2";
-const char* password = "idrf2024";
+const char* password = "PASSWORD_HERE";
 
 ESP8266WebServer server(80);
 WiFiUDP udp;
